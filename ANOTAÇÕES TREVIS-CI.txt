@@ -1,0 +1,21 @@
+Travis - Integração contínua.
+Garante que as alterações que estão sendo feitas no código fonte
+estejam sempre funcionando e passando em todos os testes.
+
+- Criar dentro da raiz do projeto um arquivo com o nome e extensão:
+	.travis.yml (Usar o Notepad++ para facilitar)
+
+- Dentro do arquivo inserir: (obedecer a tabulação)
+	language: java
+	jdk:
+	  - openjdk8
+	before_install:
+	  - chmod +x mvnw
+
+- Atualizar o GITHUB com a alteração.
+
+- Acessar o travis-ci e vincular a conta do GitHub:
+	travis-ci.com
+
+- Copiar dentro do arquvivo README do projeto
+	[![Build Status](https://travis-ci.com/docarmoj/meu-primeiro-projeto.svg?branch=master)](https://travis-ci.com/docarmoj/meu-primeiro-projeto)

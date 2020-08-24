@@ -1,0 +1,35 @@
+git init - iniciar um repositorio local
+
+Adcionando um projeto do GIT ao repositorio local
+git remote add origin https://github.com/docarmoj/ponto-inteligente-api
+git pull origin master
+
+git clone - clonar um projeto/repositório que está no GITHUB
+	git clone https://github.com/docarmoj/meu-primeiro-projeto.git
+
+	MAVEN 
+	Copiando um projeto do GITHUB para a maquina local é necessário instalar o MAVEN para gerar o arquivo/projeto que será importado para dentro do eclipse
+	Acessar - https://maven.apache.org/download.cgi 
+	Baixar - apache-maven-3.6.3-bin.zip
+	Configurar as variáveis de ambiente H2_HOME, MAVEN_HOME apontando para a pasta que foi baixada.
+	Dentro da pasta do projeto - executar o comando: mvn eclipse:eclipse
+	Dentro do Eclipse importar o projeto - File -> Import Existing Maven Project -> Maven -> Existing Maven Projects -> apontar para a pasta do projeto.
+
+
+git add - informa quais arquivos quero versionar
+	git add . (o ponto serve para indicar que quero add tudo da pasta corrente)
+
+git commit - cria uma versão localmente
+	git commit -m "descrição da alteraçao"
+
+git push - envia a versão criada localmente para o repositório do GITHUB
+	git push origin master
+
+git status - mostra o que está acontecendo.
+git log - mostra o log do que foi comitado.
+git checkout master(ou outra branch) troca de branch
+
+
+
+
+
