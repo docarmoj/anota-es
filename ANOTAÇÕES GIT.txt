@@ -30,6 +30,7 @@ git log - mostra o log do que foi comitado.
 git checkout master(ou outra branch) troca de branch
 
 
+https://github.com/mrtheduts/readmegit
 
 
 
